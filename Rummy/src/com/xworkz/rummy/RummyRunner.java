@@ -22,9 +22,6 @@ public class RummyRunner {
 		SessionFactory sefoc = RummyConfiguration.getSessionFactory();
 
 		
-		
-		
-
 		RummyDto dto1 = new RummyDto(1, "kishan", "kishan@gmail.com", 4, 2, 2500, 2000, 300);
 		RummyDto dto2 = new RummyDto(2, "Kiran", "kiran@gmail.com", 4, 2, 1500, 1000, 200);
 		RummyDto dto3 = new RummyDto(3, "aishu", "aishu@gmail.com", 4, 2, 500, 500, 100);
